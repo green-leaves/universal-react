@@ -3,6 +3,7 @@ import { Route, IndexRoute } from 'react-router';
 
 import App from './modules/App/App';
 import Home from './modules/Home/Home';
+import Thread from './modules/Thread/Thread';
 
 
 module.exports = (
@@ -14,5 +15,9 @@ module.exports = (
         </Route>
         <Route path="/about" component={About}/>
         */}
+
+        <Route path="/thread" component={Thread}>
+            <Route path="/thread/:threadId" component={Thread} />
+        </Route>
     </Route>
-)
+);
