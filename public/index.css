@@ -5,3 +5,18 @@
 body {
   background: #eee;
 }
+
+.thread-container {
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.thread-info {
+  display: inline-block;
+}
+
+.thread-count {
+  float: right;
+  text-align: center;
+  margin-left: 10px;
+}
