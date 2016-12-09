@@ -26,10 +26,10 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: 'babel-loader?presets[]=es2015&presets[]=react'
             },
-            { test: /bootstrap.+\.(jsx|js)$/, loader: 'import?jQuery=jquery,$=jquery,this=>window' },
+            //{ test: /bootstrap.+\.(jsx|js)$/, loader: 'import?jQuery=jquery,$=jquery,this=>window' },
             {
                 test: /\.css$/,
-                loader: "style-loader!css-loader"
+                loaders: ['style', 'css']
             },
             {
                 test: /\.png$/,

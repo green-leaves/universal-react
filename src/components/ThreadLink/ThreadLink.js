@@ -8,19 +8,19 @@ class ThreadLink extends React.Component {
         return (
             <div className="thread-container">
                 <div className="thread-info">
-                    <Link className={this.props.className} to={`/thread/${this.props.id}`}>
-                        <span className="">{this.props.title}</span>
+                    <Link className={this.props.className} to={`/thread/${this.props.thread.id}`}>
+                        <span className="">{this.props.thread.title}</span>
                     </Link>
                     <div>
                         <small>John Doe</small>
                     </div>
                 </div>
                 <div className="thread-count">
-                    <strong>143</strong>
+                    <strong>{this.props.thread.totalComments}</strong>
                     <div>comments</div>
                 </div>
                 <div className="thread-count">
-                    <strong>95</strong>
+                    <strong>{this.props.thread.totalVotes}</strong>
                     <div>votes</div>
                 </div>
             </div>
