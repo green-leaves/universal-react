@@ -20,3 +20,17 @@ body {
   text-align: center;
   margin-left: 10px;
 }
+
+.App-header {
+  border-top: 4px solid #e7742e;
+  padding: 6px;
+}
+
+.Header-controls {
+  list-style-type: none;
+}
+
+.Header-controls > li {
+  display: inline-block;
+  margin-right: 10px;
+}

@@ -15,18 +15,21 @@ class Home extends React.Component {
             {
                 id : "1",
                 title: "Lorem ipsum dolor sit amet",
+                sub: "Lorem",
                 totalComments: 12,
                 totalVotes: 120,
             },
             {
                 id : "2",
                 title: "Màn sương màu bạc tràn ngập khắp boong tàu.",
+                sub: "VanHoc",
                 totalComments: 3,
                 totalVotes: 44,
             },
             {
                 id : "3",
                 title: "At vero eos et accusamus et iusto odio dignissimos",
+                sub: "accusamus",
                 totalComments: 159,
                 totalVotes: 1355,
             },
@@ -37,7 +40,7 @@ class Home extends React.Component {
                 totalVotes: 45666,
             },
             {
-                id : "6",
+                id : "5",
                 title: "Lorem ipsum dolor sit amet",
                 totalComments: 12,
                 totalVotes: 120,
